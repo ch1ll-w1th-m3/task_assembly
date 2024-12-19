@@ -20,7 +20,7 @@ _start:
     syscall
     
     mov rax, 60
-    mov rdi, 1
+    mov rdi, 0
     syscall
 ```
 Để in dòng chữ **Hello, World!** ra, ta dùng write và stdout của syscall, cụ thể: 
